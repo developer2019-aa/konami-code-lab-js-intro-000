@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function init() {
-  
+
   let i = 0;
 
 document.body.addEventListener("keydown", (pressedHere) => {
@@ -20,14 +20,14 @@ document.body.addEventListener("keydown", (pressedHere) => {
   console.log(key)
 
   if (codes[i] == key) {
-    i++; 
-    
+    i++;
+
     if (i === codes.length) {
       alert("you did something...");
       i = 0;
     }
   } else {
-    i = 0; 
+    i = 0;
   }
 });
 }
