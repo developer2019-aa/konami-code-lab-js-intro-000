@@ -23,7 +23,7 @@ document.body.addEventListener("keydown", (pressedHere) => {
     i++;
 
     if (i === codes.length) {
-      alert("you did something...");
+      alert("Hurray you did something...");
       i = 0;
     }
   } else {
